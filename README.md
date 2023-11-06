@@ -9,4 +9,4 @@ In this application next features realised:
   - Stopwatch has delay, which allows user to check targeted character;
   - After user click targeted characted, stopwatch stops and turns green.
     
-Installation: download .zip and open index.html file.
+Installation: download .zip and open main.html file.
