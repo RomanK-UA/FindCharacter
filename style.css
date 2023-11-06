@@ -1,0 +1,141 @@
+*{
+	text-decoration: none;
+	margin: 0;
+	padding: 0;	
+}
+body{
+	background: url("background.jpg") no-repeat;
+	background-size: cover;
+
+}
+#menu
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-sizing: border-box;
+	height: 95vh;
+	width: 8vw;
+	border: 5px solid #FF8000;
+	border-right: 0px;
+	border-radius: 3px; 
+	float: left;
+	margin-top: 2vh;
+	margin-left: 2vw;
+    background-color: #FAAC58;	  
+	box-shadow:inset -5px -5px 5px 0 rgba(0,0,0,.5), 
+    inset 5px 5px 5px 0 rgba(255,255,255,0.5);
+	padding: 10px;
+}
+
+#pad{
+	box-sizing: border-box;
+	height: 95vh;
+	width: 85vw;
+	margin-right: 2vw;
+	margin-top: 2vh;
+	border: 5px solid #FF8000;
+	background-color: white;
+	float: left;
+	box-shadow:inset -5px -5px 5px 0 rgba(0,0,0,.5), 
+    		   inset 5px 5px 5px 0 rgba(255,255,255,0.5);
+	padding: 10px;
+}
+#yourAim
+{
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 10px;
+}
+#aimPad{
+	box-sizing: border-box;
+	height: 10vh;
+	width: 5vw;
+	border: 5px solid #FE642E;
+	margin-top: 2vh;
+	text-align: center;
+	background: white;
+}
+#numTitle{
+	color: #FE642E;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px;
+}
+button{
+	width: 100%;
+	height: 5vh;
+	background: rgb(215,20,53);
+	background-color: #FE642E;
+	color: #66CCFF;
+	font-size: 14px;
+	font-weight: bold;
+	border-width: 2px;
+	margin-top: 10px;
+}
+button:active, button:focus {
+  outline: none;
+}
+#symbNum{
+	box-sizing: border-box;
+	color: #66CCFF;
+	background-color: #FE642E;
+	height: 5vh;
+	width: 6vw;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 10px;
+	border-width: 3px;
+}
+#backgroundColorPicker, #characterColorPicker, #characterSizePicker{
+	margin-top: 10px;
+	width: 100px;
+}
+#stopWatch{
+	box-sizing: border-box;
+	color: #66CCFF;
+	background-color: #FE642E;
+	height: 6vh;
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	border-width: 2px;
+	box-shadow:inset -5px -5px 5px 0 rgba(0,0,0,.5), 
+    inset 5px 5px 5px 0 rgba(255,255,255,0.5);
+    padding: 1vh;
+}
+#stopWatch p, a{
+	font-size: 16px;
+	color: #66CCFF;
+}
+.charHolder
+{
+	font-size: 24px;
+	color: red;
+	margin: 50px 50px 50px 50px;
+}
+input{
+	width: 2vw;
+	height: 2vh;
+	margin-bottom: 1vh;
+}
+#checker
+{
+	text-align: center;
+	font-weight: bold;
+}
+#settings
+{
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	padding: 2px;
+	align-items: center;
+}
+span:hover{
+	cursor: pointer;
+}

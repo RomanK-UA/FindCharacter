@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+  
+	<title>Document</title>
+</head>
+<body>	
+	<div id="menu">
+		<form name = symbNumForm>
+			<p id="numTitle">Кол-во символов:</p>
+			<input  id="symbNum" type="number" name="symbNum" min="1" max="15" value="1">
+		</form>
+
+		<button id="beginButton" onclick="createTargets()">Создать</button>
+
+		<fieldset id="stopWatch">	
+			<p>Время:</p>
+			<!-- <a href="#" id="stop" onclick="stopStopwatch()">Stop</a>
+			<a href="#" id="reset" onclick="resetStopwatch()">Reset</a><br> -->
+	
+			<span id="s_minutes">00</span>:
+			<span id="s_seconds">00</span>:
+			<span id="s_ms">000</span>
+		</fieldset>
+
+		<div id="settings">
+			<p id="checker">Использовать свои настройки</p>
+			<form name="myForm">
+			<input type="checkbox" name="turnOn" unchecked>
+			</form>
+			
+			<p>Цвет фона:</p>
+			<input type="color" value="#F3E2A9" id="backgroundColorPicker" disabled="true">
+			
+			<p>Цвет символа:</p>
+			<input type="color" value="#F3E2A9" id="characterColorPicker" disabled="true">
+
+			<p>Размер символа:</p>
+			<input type="number" id="characterSizePicker" min="10" max="60">
+			<p id="yourAim">Цель:</p>
+
+			<div id="aimPad">
+			</div>
+		</div>
+
+  </div>
+      <div id="pad">
+    	
+    </div>
+	
+	<script src="main.js"> 
+</script>
+</body>
+</html>
