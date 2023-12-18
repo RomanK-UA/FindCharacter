@@ -68,6 +68,7 @@ function resetStopwatch(evt) {
   } else {
     offset = -Date.now();
   }
+  stopWatch.style.backgroundColor = '#FE642E';
 }
 function format(value, scale, modulo, padding) {
   value = Math.floor(value / scale) % modulo;
