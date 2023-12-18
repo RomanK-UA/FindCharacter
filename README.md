@@ -7,6 +7,6 @@ In this application next features realised:
   - Pad's background color is white by default, but can be changed on the left panel, as well as characters size and color;
   - If custom settings didn't apply, all characters will have random size (! if custom settings flag is turned on, characters size HAVE to be set for normal work);
   - Stopwatch has delay, which allows user to check targeted character;
-  - After user click targeted characted, stopwatch stops and turns green.
+  - After user click targeted character, stopwatch stops and turns green.
     
 Installation: download .zip and open main.html file.
