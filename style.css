@@ -15,7 +15,7 @@ body{
 	align-items: center;
 	box-sizing: border-box;
 	height: 95vh;
-	width: 8vw;
+	width: 10vw;
 	border: 5px solid #FF8000;
 	border-right: 0px;
 	border-radius: 3px; 
@@ -57,7 +57,7 @@ body{
 	background: white;
 }
 #numTitle{
-	color: #FE642E;
+	color: Black;
 	font-size: 14px;
 	font-weight: bold;
 	padding: 5px;
@@ -75,6 +75,10 @@ button{
 }
 button:active, button:focus {
   outline: none;
+}
+button:hover{
+	cursor:pointer;
+	background: #d85526;
 }
 #symbNum{
 	box-sizing: border-box;
@@ -128,6 +132,7 @@ input{
 	text-align: center;
 	font-weight: bold;
 }
+
 #settings
 {
 	display: flex;
